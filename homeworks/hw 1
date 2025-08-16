@@ -1,0 +1,62 @@
+\documentclass{article}
+\input{preamble}
+
+\title{Homework 1}
+\author{Kairos Scoleri}
+
+\begin{document}
+\maketitle
+
+\begin{enumerate}
+
+%%%% problem 1
+\item Genetically, all cats are either black or orange. The trait is sex-linked (on the X chromosome) and co-dominant: male cats (XY) can either be black (BY) or orange (OY) only; female cats (XX) can be black (BB) orange (OO) or calico (BO or OB). The prevalence of the orange gene in the population is about 20\%.
+\begin{enumerate}[(a)]
+    \item What percent of male cats are orange? Female cats?
+    \item If an orange tom and a calico kitty have kittens, what percentage of sons are orange? What percentage of daughters are orange?
+    \item If they have 8 kittens, what is the probability that they will all be orange? What is the probability that exactly 4 will be orange?
+\end{enumerate}
+
+%%%% problem 2
+\item The elasticity of a rubber band can be modeled as a polymer made up of $N$ subunits each of length $x$. Each link is equally likely to point right or left (see \figref{fig:rubberband}). One end is fixed at the origin.
+
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=\linewidth]{Statistical Mechanics/images/hw 1 rubberband.png}
+\caption{} 
+\label{fig:rubberband}
+\end{figure}
+\begin{enumerate}[(a)]
+    \item How many different arrangements yield a length $L=2 mx$, where $m$ is an integer?
+    \item Give an expression for the entropy assuming large $N$.
+    \item Get an expression for the retractive force. Hint: use $\dd U=T\: \dd S+f \: \dd L$, $\dd F=-S\:\dd T+f \: \dd L$, then use the approximate version of $S$ calculated in part (b).
+\end{enumerate}
+
+%%%% problem 3
+\item Evaluate $i!$
+
+%%%% problem 4
+\item An inveterate liar throws a die and tells you it came up 6. If he lies 45\% of the time, what is the chance that the real result was actually 6?
+
+%%%% problem 5
+\item The geometric series is of great utility in statistical mechanics:
+\[\sum_{n=0}^\infty x^n =\frac{1}{1-x}\]
+\begin{enumerate}[a.]
+    \item Start with this result to sum the series
+    \[\sum_{n=0}^\infty nx^n\]
+    \item Start with this result to sum the series
+    \[\sum_{n=0}^\infty n^2x^n\]
+\end{enumerate}
+
+%%%% problem 6
+\item Consider 2 systems $\mathbf{A}$ and $\mathbf{B}$, each composed of 2 distinguishable particles. The total energy is fixed as $E=E_A +E_B =5$ (arbitrary units) where each particle can exist in a state of integer energy (0 to 5). Particle exchange does not take place. Calculate the entropy in the cases where 
+\begin{enumerate}
+    \item $E_A =3$ and $E_B =2$
+    \item $E_A$ and $E_B$ can be anything as long as $E=5$.
+\end{enumerate}
+
+
+
+\end{enumerate}
+\end{document}
